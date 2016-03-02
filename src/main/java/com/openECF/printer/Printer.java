@@ -41,5 +41,4 @@ public interface Printer {
 
     void finalizaFechamento(String mensagem);
 
-
 }
