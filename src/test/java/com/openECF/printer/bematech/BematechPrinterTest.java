@@ -2,6 +2,7 @@ package com.openECF.printer.bematech;
 
 import com.openECF.printer.Printer;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,11 +16,13 @@ public class BematechPrinterTest {
 
     @Before
     public void before() throws Exception {
+        System.out.println("Iniciando Test bematech");
         printer = new BematechPrinter();
     }
 
     @After
     public void after() throws Exception {
+        System.out.println("Finalizando Test bematech");
     }
 
     /**
@@ -27,7 +30,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testRetornoImpressora() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -35,7 +38,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testLeituraX() throws Exception {
-
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -43,7 +46,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testReducaoZ() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -51,7 +54,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testAbreDia() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -68,7 +71,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testInformaPagamento() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -76,7 +79,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testFechaCupomResumido() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -84,7 +87,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testHorarioVerao() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -92,7 +95,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testMemoriaFiscalPorData() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -100,7 +103,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testMemoriaFiscalPorReducao() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -108,7 +111,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testCancelaCupom() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -116,7 +119,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testVendeItem() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -124,7 +127,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testCancelaItemAnterior() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -132,7 +135,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testCancelaItemGenerico() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -140,7 +143,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testProgramaAliquota() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -148,7 +151,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testIniciaFechamento() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
     /**
@@ -156,7 +159,7 @@ public class BematechPrinterTest {
      */
     @Test
     public void testFinalizaFechamento() throws Exception {
-//TODO: Test goes here...
+        Assert.fail("not Implemented");
     }
 
 
