@@ -1,0 +1,14 @@
+default-job:
+  script:
+    - mvn test -U
+  except:
+    - tags
+
+release-job:
+  script:
+    - mvn package -U
+  artifacts:
+    paths:
+    - target/*.war
+  only:
+    - tags
